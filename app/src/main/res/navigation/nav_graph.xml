@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieSearchFragment">
+
+    <fragment
+        android:id="@+id/movieSearchFragment"
+        android:name="com.example.mobilt_java23_adam_barnell_api_intergration_v4.MovieSearchFragment"
+        android:label="Movie Search">
+        <action
+            android:id="@+id/action_movieSearchFragment_to_popularMoviesFragment"
+            app:destination="@id/popularMoviesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/popularMoviesFragment"
+        android:name="com.example.mobilt_java23_adam_barnell_api_intergration_v4.PopularMoviesFragment"
+        android:label="Popular Movies">
+        <action
+            android:id="@+id/action_popularMoviesFragment_to_movieSearchFragment"
+            app:destination="@id/movieSearchFragment" />
+    </fragment>
+</navigation>

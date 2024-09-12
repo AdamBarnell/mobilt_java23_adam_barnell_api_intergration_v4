@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995031931919",
+    "project_id": "mobiltutvecklande",
+    "storage_bucket": "mobiltutvecklande.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995031931919:android:b850b9565d50d575c0d77a",
+        "android_client_info": {
+          "package_name": "com.example.mobilt_java23_adam_barnell_api_intergration_v4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVdiVJVSNX26gsZDTad_KITYniTkl7gYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
